@@ -1,0 +1,3953 @@
+{
+  "id": "kgxf-xxbe",
+  "name": "Resultados únicos Saber 11",
+  "assetType": "dataset",
+  "attribution": "Instituto Colombiano para la Evaluación de la Educación - ICFES, Bogotá D.C.",
+  "averageRating": 0,
+  "category": "Educación",
+  "createdAt": 1654616711,
+  "description": "Resultados de las pruebas de Saber 11 del 2010 asl 2022",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 14030,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "CC_40_BY_SA",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 38556394,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1654618066,
+  "publicationGroup": 18729632,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1692831127,
+  "tableId": 18729632,
+  "totalTimesRated": 0,
+  "viewCount": 84015,
+  "viewLastModified": 1779131104,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1655320217,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 4765252,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1655127883,
+      "targetAudience": "public",
+      "workflowId": 2188,
+      "reviewer": {
+        "id": "r4qn-dwdd",
+        "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+      },
+      "submissionDetails": {
+        "permissionType": "read"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1655320217,
+        "failureCount": 0,
+        "startedAt": 1655320217,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "bpbw-gs2u",
+        "displayName": "ICFES DATOS ABIERTOS"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 561496667,
+      "name": "PERIODO",
+      "dataTypeName": "text",
+      "description": "Periodo de los resultados",
+      "fieldName": "periodo",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 142487254,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "20224",
+        "null": "0",
+        "top": [
+          {
+            "item": "20194",
+            "count": "1096524"
+          },
+          {
+            "item": "20224",
+            "count": "1065888"
+          },
+          {
+            "item": "20122",
+            "count": "641956"
+          },
+          {
+            "item": "20102",
+            "count": "628374"
+          },
+          {
+            "item": "20112",
+            "count": "617442"
+          },
+          {
+            "item": "20162",
+            "count": "550275"
+          },
+          {
+            "item": "20132",
+            "count": "548596"
+          },
+          {
+            "item": "20172",
+            "count": "548269"
+          },
+          {
+            "item": "20142",
+            "count": "546727"
+          },
+          {
+            "item": "20152",
+            "count": "544491"
+          },
+          {
+            "item": "20101",
+            "count": "41656"
+          },
+          {
+            "item": "20121",
+            "count": "38432"
+          },
+          {
+            "item": "20131",
+            "count": "35179"
+          },
+          {
+            "item": "20111",
+            "count": "32978"
+          },
+          {
+            "item": "20181",
+            "count": "32348"
+          },
+          {
+            "item": "20151",
+            "count": "25973"
+          },
+          {
+            "item": "20141",
+            "count": "24910"
+          },
+          {
+            "item": "20221",
+            "count": "20049"
+          },
+          {
+            "item": "20211",
+            "count": "15528"
+          },
+          {
+            "item": "20201",
+            "count": "15435"
+          }
+        ],
+        "smallest": "20101",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496626,
+      "name": "ESTU_TIPODOCUMENTO",
+      "dataTypeName": "text",
+      "description": "Tipo de documento",
+      "fieldName": "estu_tipodocumento",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 142487213,
+      "cachedContents": {
+        "non_null": "7109703",
+        "largest": "V",
+        "null": "1",
+        "top": [
+          {
+            "item": "TI",
+            "count": "5639665"
+          },
+          {
+            "item": "CC",
+            "count": "1341784"
+          },
+          {
+            "item": "CR",
+            "count": "104309"
+          },
+          {
+            "item": "CE",
+            "count": "10282"
+          },
+          {
+            "item": "NES",
+            "count": "7091"
+          },
+          {
+            "item": "PEP",
+            "count": "3926"
+          },
+          {
+            "item": "PE",
+            "count": "1093"
+          },
+          {
+            "item": "PPT",
+            "count": "726"
+          },
+          {
+            "item": "PC",
+            "count": "400"
+          },
+          {
+            "item": "PV",
+            "count": "173"
+          },
+          {
+            "item": "RC",
+            "count": "138"
+          },
+          {
+            "item": "V",
+            "count": "76"
+          },
+          {
+            "item": "NIP",
+            "count": "12"
+          },
+          {
+            "item": "NUIP",
+            "count": "10"
+          },
+          {
+            "item": "CCB",
+            "count": "8"
+          },
+          {
+            "item": "PTP",
+            "count": "4"
+          },
+          {
+            "item": "NUI",
+            "count": "3"
+          },
+          {
+            "item": "PET",
+            "count": "2"
+          },
+          {
+            "item": "v",
+            "count": "1"
+          }
+        ],
+        "smallest": "CC",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496652,
+      "name": "ESTU_CONSECUTIVO",
+      "dataTypeName": "text",
+      "description": "Identificador del examinando",
+      "fieldName": "estu_consecutivo",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 142487239,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "SB3599201721316611",
+        "null": "0",
+        "top": [
+          {
+            "item": "SB11201310029096",
+            "count": "22"
+          },
+          {
+            "item": "SB11201220214543",
+            "count": "22"
+          },
+          {
+            "item": "SB11201010025108",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025056",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025078",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025106",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025043",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025019",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025046",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025049",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025068",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025069",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025101",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025104",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010024998",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025020",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025022",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025023",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025045",
+            "count": "11"
+          },
+          {
+            "item": "SB11201010025044",
+            "count": "11"
+          }
+        ],
+        "smallest": "AC202210000131",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496653,
+      "name": "COLE_AREA_UBICACION",
+      "dataTypeName": "text",
+      "description": "Ubicación de la Sede",
+      "fieldName": "cole_area_ubicacion",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 142487240,
+      "cachedContents": {
+        "non_null": "7106673",
+        "largest": "URBANO",
+        "null": "3031",
+        "top": [
+          {
+            "item": "URBANO",
+            "count": "6105963"
+          },
+          {
+            "item": "RURAL",
+            "count": "1000710"
+          }
+        ],
+        "smallest": "RURAL",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496673,
+      "name": "COLE_BILINGUE",
+      "dataTypeName": "text",
+      "description": "¿Es colegio bilingüe?",
+      "fieldName": "cole_bilingue",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 142487260,
+      "cachedContents": {
+        "non_null": "6192834",
+        "largest": "S",
+        "null": "916870",
+        "top": [
+          {
+            "item": "N",
+            "count": "6073632"
+          },
+          {
+            "item": "S",
+            "count": "119202"
+          }
+        ],
+        "smallest": "N",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496664,
+      "name": "COLE_CALENDARIO",
+      "dataTypeName": "text",
+      "description": "Calendario del Establecimiento",
+      "fieldName": "cole_calendario",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 142487251,
+      "cachedContents": {
+        "non_null": "7108168",
+        "largest": "OTRO",
+        "null": "1536",
+        "top": [
+          {
+            "item": "A",
+            "count": "6846791"
+          },
+          {
+            "item": "B",
+            "count": "217237"
+          },
+          {
+            "item": "OTRO",
+            "count": "44140"
+          }
+        ],
+        "smallest": "A",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496657,
+      "name": "COLE_CARACTER",
+      "dataTypeName": "text",
+      "description": "Carácter del establecimiento",
+      "fieldName": "cole_caracter",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 142487244,
+      "cachedContents": {
+        "non_null": "6999492",
+        "largest": "TÉCNICO/ACADÉMICO",
+        "null": "110212",
+        "top": [
+          {
+            "item": "ACADÉMICO",
+            "count": "3800542"
+          },
+          {
+            "item": "TÉCNICO/ACADÉMICO",
+            "count": "2386584"
+          },
+          {
+            "item": "TÉCNICO",
+            "count": "758531"
+          },
+          {
+            "item": "NO APLICA",
+            "count": "53835"
+          }
+        ],
+        "smallest": "ACADÉMICO",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496659,
+      "name": "COLE_COD_DANE_ESTABLECIMIENTO",
+      "dataTypeName": "text",
+      "description": "Código DANE del Establecimiento",
+      "fieldName": "cole_cod_dane_establecimiento",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 142487246,
+      "cachedContents": {
+        "non_null": "7106327",
+        "largest": "625843000124",
+        "null": "3377",
+        "top": [
+          {
+            "item": "105001000108",
+            "count": "13950"
+          },
+          {
+            "item": "105001013340",
+            "count": "9848"
+          },
+          {
+            "item": "305001004293",
+            "count": "9290"
+          },
+          {
+            "item": "311001105863",
+            "count": "8794"
+          },
+          {
+            "item": "176001005813",
+            "count": "8155"
+          },
+          {
+            "item": "311001105391",
+            "count": "7596"
+          },
+          {
+            "item": "305001003963",
+            "count": "7438"
+          },
+          {
+            "item": "405001016946",
+            "count": "7263"
+          },
+          {
+            "item": "168001003591",
+            "count": "6685"
+          },
+          {
+            "item": "105154000301",
+            "count": "6663"
+          },
+          {
+            "item": "111001024732",
+            "count": "6526"
+          },
+          {
+            "item": "176001001753",
+            "count": "6500"
+          },
+          {
+            "item": "313001006701",
+            "count": "6469"
+          },
+          {
+            "item": "305001017361",
+            "count": "6322"
+          },
+          {
+            "item": "305001024544",
+            "count": "6167"
+          },
+          {
+            "item": "105615000236",
+            "count": "6068"
+          },
+          {
+            "item": "185001000268",
+            "count": "5677"
+          },
+          {
+            "item": "152001000777",
+            "count": "5532"
+          },
+          {
+            "item": "152001000785",
+            "count": "5331"
+          },
+          {
+            "item": "173001000308",
+            "count": "5214"
+          }
+        ],
+        "smallest": "010500103391",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496666,
+      "name": "COLE_COD_DANE_SEDE",
+      "dataTypeName": "text",
+      "description": "Código DANE de la Sede",
+      "fieldName": "cole_cod_dane_sede",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 142487253,
+      "cachedContents": {
+        "non_null": "7109594",
+        "largest": "854874000001",
+        "null": "110",
+        "top": [
+          {
+            "item": "105001000108",
+            "count": "13950"
+          },
+          {
+            "item": "105001013340",
+            "count": "9848"
+          },
+          {
+            "item": "305001004293",
+            "count": "9290"
+          },
+          {
+            "item": "311001105863",
+            "count": "8794"
+          },
+          {
+            "item": "176001005813",
+            "count": "8155"
+          },
+          {
+            "item": "311001105391",
+            "count": "7596"
+          },
+          {
+            "item": "305001003963",
+            "count": "7438"
+          },
+          {
+            "item": "405001016946",
+            "count": "7263"
+          },
+          {
+            "item": "168001003591",
+            "count": "6685"
+          },
+          {
+            "item": "105154000301",
+            "count": "6663"
+          },
+          {
+            "item": "111001024732",
+            "count": "6526"
+          },
+          {
+            "item": "176001001753",
+            "count": "6500"
+          },
+          {
+            "item": "313001006701",
+            "count": "6469"
+          },
+          {
+            "item": "305001017361",
+            "count": "6322"
+          },
+          {
+            "item": "305001024544",
+            "count": "6167"
+          },
+          {
+            "item": "105615000236",
+            "count": "6068"
+          },
+          {
+            "item": "152001000785",
+            "count": "5331"
+          },
+          {
+            "item": "173001000308",
+            "count": "5214"
+          },
+          {
+            "item": "111001010910",
+            "count": "5099"
+          },
+          {
+            "item": "305001024609",
+            "count": "5086"
+          }
+        ],
+        "smallest": "000000000000",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496554,
+      "name": "COLE_COD_DEPTO_UBICACION",
+      "dataTypeName": "text",
+      "description": "Departamento de la sede",
+      "fieldName": "cole_cod_depto_ubicacion",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 142487142,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "99",
+        "null": "23",
+        "top": [
+          {
+            "item": "11",
+            "count": "1131725"
+          },
+          {
+            "item": "05",
+            "count": "1009317"
+          },
+          {
+            "item": "76",
+            "count": "642592"
+          },
+          {
+            "item": "25",
+            "count": "470818"
+          },
+          {
+            "item": "08",
+            "count": "391462"
+          },
+          {
+            "item": "68",
+            "count": "346512"
+          },
+          {
+            "item": "13",
+            "count": "309533"
+          },
+          {
+            "item": "23",
+            "count": "240586"
+          },
+          {
+            "item": "52",
+            "count": "221397"
+          },
+          {
+            "item": "15",
+            "count": "215234"
+          },
+          {
+            "item": "73",
+            "count": "208393"
+          },
+          {
+            "item": "54",
+            "count": "194322"
+          },
+          {
+            "item": "47",
+            "count": "188771"
+          },
+          {
+            "item": "41",
+            "count": "176077"
+          },
+          {
+            "item": "19",
+            "count": "174168"
+          },
+          {
+            "item": "20",
+            "count": "152489"
+          },
+          {
+            "item": "50",
+            "count": "146006"
+          },
+          {
+            "item": "17",
+            "count": "137572"
+          },
+          {
+            "item": "70",
+            "count": "131898"
+          },
+          {
+            "item": "66",
+            "count": "131789"
+          }
+        ],
+        "smallest": "05",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496638,
+      "name": "COLE_COD_MCPIO_UBICACION",
+      "dataTypeName": "text",
+      "description": "Código Municipio de la sede",
+      "fieldName": "cole_cod_mcpio_ubicacion",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 142487225,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "99773",
+        "null": "23",
+        "top": [
+          {
+            "item": "11001",
+            "count": "1131725"
+          },
+          {
+            "item": "05001",
+            "count": "450742"
+          },
+          {
+            "item": "76001",
+            "count": "347028"
+          },
+          {
+            "item": "08001",
+            "count": "218019"
+          },
+          {
+            "item": "13001",
+            "count": "164879"
+          },
+          {
+            "item": "54001",
+            "count": "108561"
+          },
+          {
+            "item": "68001",
+            "count": "93558"
+          },
+          {
+            "item": "73001",
+            "count": "90284"
+          },
+          {
+            "item": "25754",
+            "count": "89106"
+          },
+          {
+            "item": "50001",
+            "count": "78564"
+          },
+          {
+            "item": "47001",
+            "count": "78505"
+          },
+          {
+            "item": "52001",
+            "count": "77136"
+          },
+          {
+            "item": "08758",
+            "count": "75170"
+          },
+          {
+            "item": "66001",
+            "count": "73225"
+          },
+          {
+            "item": "05088",
+            "count": "69429"
+          },
+          {
+            "item": "23001",
+            "count": "66964"
+          },
+          {
+            "item": "20001",
+            "count": "66847"
+          },
+          {
+            "item": "41001",
+            "count": "60670"
+          },
+          {
+            "item": "17001",
+            "count": "58402"
+          },
+          {
+            "item": "19001",
+            "count": "49631"
+          }
+        ],
+        "smallest": "05001",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496668,
+      "name": "COLE_CODIGO_ICFES",
+      "dataTypeName": "text",
+      "description": "Código ICFES del Establecimiento",
+      "fieldName": "cole_codigo_icfes",
+      "position": 12,
+      "renderTypeName": "text",
+      "tableColumnId": 142487255,
+      "cachedContents": {
+        "non_null": "7085971",
+        "largest": "999",
+        "null": "23733",
+        "top": [
+          {
+            "item": "000059",
+            "count": "10497"
+          },
+          {
+            "item": "000786",
+            "count": "8677"
+          },
+          {
+            "item": "079848",
+            "count": "7575"
+          },
+          {
+            "item": "000638",
+            "count": "6164"
+          },
+          {
+            "item": "001115",
+            "count": "5359"
+          },
+          {
+            "item": "106112",
+            "count": "4985"
+          },
+          {
+            "item": "089235",
+            "count": "4794"
+          },
+          {
+            "item": "067652",
+            "count": "4785"
+          },
+          {
+            "item": "145383",
+            "count": "4774"
+          },
+          {
+            "item": "014324",
+            "count": "4754"
+          },
+          {
+            "item": "164590",
+            "count": "4643"
+          },
+          {
+            "item": "011296",
+            "count": "4617"
+          },
+          {
+            "item": "017590",
+            "count": "4598"
+          },
+          {
+            "item": "147587",
+            "count": "4342"
+          },
+          {
+            "item": "088617",
+            "count": "4326"
+          },
+          {
+            "item": "017210",
+            "count": "4312"
+          },
+          {
+            "item": "014399",
+            "count": "4056"
+          },
+          {
+            "item": "023366",
+            "count": "4002"
+          },
+          {
+            "item": "001073",
+            "count": "3950"
+          },
+          {
+            "item": "114330",
+            "count": "3943"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496648,
+      "name": "COLE_DEPTO_UBICACION",
+      "dataTypeName": "text",
+      "description": "Departamento de la sede",
+      "fieldName": "cole_depto_ubicacion",
+      "position": 13,
+      "renderTypeName": "text",
+      "tableColumnId": 142487235,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "VICHADA",
+        "null": "23",
+        "top": [
+          {
+            "item": "ANTIOQUIA",
+            "count": "1009317"
+          },
+          {
+            "item": "BOGOTA",
+            "count": "690385"
+          },
+          {
+            "item": "VALLE",
+            "count": "642592"
+          },
+          {
+            "item": "CUNDINAMARCA",
+            "count": "470818"
+          },
+          {
+            "item": "BOGOTÁ",
+            "count": "441340"
+          },
+          {
+            "item": "ATLANTICO",
+            "count": "391462"
+          },
+          {
+            "item": "SANTANDER",
+            "count": "346512"
+          },
+          {
+            "item": "BOLIVAR",
+            "count": "309533"
+          },
+          {
+            "item": "CORDOBA",
+            "count": "240586"
+          },
+          {
+            "item": "NARIÑO",
+            "count": "221397"
+          },
+          {
+            "item": "BOYACA",
+            "count": "215234"
+          },
+          {
+            "item": "TOLIMA",
+            "count": "208393"
+          },
+          {
+            "item": "NORTE SANTANDER",
+            "count": "194322"
+          },
+          {
+            "item": "MAGDALENA",
+            "count": "188771"
+          },
+          {
+            "item": "HUILA",
+            "count": "176077"
+          },
+          {
+            "item": "CAUCA",
+            "count": "174168"
+          },
+          {
+            "item": "CESAR",
+            "count": "152489"
+          },
+          {
+            "item": "META",
+            "count": "146006"
+          },
+          {
+            "item": "CALDAS",
+            "count": "137572"
+          },
+          {
+            "item": "SUCRE",
+            "count": "131898"
+          }
+        ],
+        "smallest": "AMAZONAS",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496661,
+      "name": "COLE_GENERO",
+      "dataTypeName": "text",
+      "description": "Genero del Establecimiento",
+      "fieldName": "cole_genero",
+      "position": 14,
+      "renderTypeName": "text",
+      "tableColumnId": 142487248,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "MIXTO",
+        "null": "23",
+        "top": [
+          {
+            "item": "MIXTO",
+            "count": "6831631"
+          },
+          {
+            "item": "FEMENINO",
+            "count": "213954"
+          },
+          {
+            "item": "MASCULINO",
+            "count": "64096"
+          }
+        ],
+        "smallest": "FEMENINO",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496627,
+      "name": "COLE_JORNADA",
+      "dataTypeName": "text",
+      "description": "Jornada de la Sede",
+      "fieldName": "cole_jornada",
+      "position": 15,
+      "renderTypeName": "text",
+      "tableColumnId": 142487214,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "UNICA",
+        "null": "23",
+        "top": [
+          {
+            "item": "MAÑANA",
+            "count": "3413717"
+          },
+          {
+            "item": "COMPLETA",
+            "count": "1346879"
+          },
+          {
+            "item": "TARDE",
+            "count": "964261"
+          },
+          {
+            "item": "NOCHE",
+            "count": "466291"
+          },
+          {
+            "item": "UNICA",
+            "count": "464190"
+          },
+          {
+            "item": "SABATINA",
+            "count": "454343"
+          }
+        ],
+        "smallest": "COMPLETA",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496647,
+      "name": "COLE_MCPIO_UBICACION",
+      "dataTypeName": "text",
+      "description": "Municipio de la sede",
+      "fieldName": "cole_mcpio_ubicacion",
+      "position": 16,
+      "renderTypeName": "text",
+      "tableColumnId": 142487234,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "ZONA BANANERA",
+        "null": "23",
+        "top": [
+          {
+            "item": "BOGOTÁ D.C.",
+            "count": "1039161"
+          },
+          {
+            "item": "CALI",
+            "count": "347028"
+          },
+          {
+            "item": "MEDELLÍN",
+            "count": "329837"
+          },
+          {
+            "item": "BARRANQUILLA",
+            "count": "218019"
+          },
+          {
+            "item": "MEDELLIN",
+            "count": "120905"
+          },
+          {
+            "item": "CARTAGENA DE INDIAS",
+            "count": "112139"
+          },
+          {
+            "item": "BUCARAMANGA",
+            "count": "93558"
+          },
+          {
+            "item": "BOGOTÁ, D.C.",
+            "count": "92564"
+          },
+          {
+            "item": "SOACHA",
+            "count": "89106"
+          },
+          {
+            "item": "VILLAVICENCIO",
+            "count": "78564"
+          },
+          {
+            "item": "SANTA MARTA",
+            "count": "78505"
+          },
+          {
+            "item": "PASTO",
+            "count": "77136"
+          },
+          {
+            "item": "SOLEDAD",
+            "count": "75170"
+          },
+          {
+            "item": "CÚCUTA",
+            "count": "73269"
+          },
+          {
+            "item": "PEREIRA",
+            "count": "73225"
+          },
+          {
+            "item": "BELLO",
+            "count": "69429"
+          },
+          {
+            "item": "VALLEDUPAR",
+            "count": "66847"
+          },
+          {
+            "item": "NEIVA",
+            "count": "60670"
+          },
+          {
+            "item": "IBAGUÉ",
+            "count": "59669"
+          },
+          {
+            "item": "MANIZALES",
+            "count": "58402"
+          }
+        ],
+        "smallest": "ABEJORRAL",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496651,
+      "name": "COLE_NATURALEZA",
+      "dataTypeName": "text",
+      "description": "Naturaleza del establecimiento",
+      "fieldName": "cole_naturaleza",
+      "position": 17,
+      "renderTypeName": "text",
+      "tableColumnId": 142487238,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "OFICIAL",
+        "null": "23",
+        "top": [
+          {
+            "item": "OFICIAL",
+            "count": "5134719"
+          },
+          {
+            "item": "NO OFICIAL",
+            "count": "1974962"
+          }
+        ],
+        "smallest": "NO OFICIAL",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496630,
+      "name": "COLE_NOMBRE_ESTABLECIMIENTO",
+      "dataTypeName": "text",
+      "description": "Nombre del Establecimiento",
+      "fieldName": "cole_nombre_establecimiento",
+      "position": 18,
+      "renderTypeName": "text",
+      "tableColumnId": 142487217,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "ZION SCHOOL",
+        "null": "23",
+        "top": [
+          {
+            "item": "INSTITUCION EDUCATIVA SAN JOSE",
+            "count": "16534"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA SIMON BOLIVAR",
+            "count": "15996"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA JORGE ELIECER GAITAN",
+            "count": "14861"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA CENTRO FORMATIVO DE ANTIOQUIA -CEFA",
+            "count": "13950"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA FRANCISCO JOSE DE CALDAS",
+            "count": "13489"
+          },
+          {
+            "item": "COLEGIO TECNISISTEMAS",
+            "count": "12651"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA ALFONSO LOPEZ PUMAREJO",
+            "count": "12620"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA NUESTRA SEÑORA DEL CARMEN",
+            "count": "11396"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA SAN FRANCISCO DE ASIS",
+            "count": "10827"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA MARCO FIDEL SUAREZ",
+            "count": "9977"
+          },
+          {
+            "item": "INST EDUC INEM JOSE FELIX DE RESTREPO",
+            "count": "9848"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA MARIA AUXILIADORA",
+            "count": "9599"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA ANTONIO NARIÑO",
+            "count": "9468"
+          },
+          {
+            "item": "COLEGIO DE LA UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+            "count": "9290"
+          },
+          {
+            "item": "CENTRO JOHANN KEPLER",
+            "count": "9248"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA SANTA TERESITA",
+            "count": "9178"
+          },
+          {
+            "item": "INSTITUTO REGIONAL COREDI",
+            "count": "8107"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA FRANCISCO DE PAULA SANTANDER",
+            "count": "7752"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA LUIS CARLOS GALAN SARMIENTO",
+            "count": "7618"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA JORGE ISAACS",
+            "count": "7467"
+          }
+        ],
+        "smallest": "ACAD AMERICANA DE SISTEMAS Y COMERCIO",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496649,
+      "name": "COLE_NOMBRE_SEDE",
+      "dataTypeName": "text",
+      "description": "Nombre de la sede",
+      "fieldName": "cole_nombre_sede",
+      "position": 19,
+      "renderTypeName": "text",
+      "tableColumnId": 142487236,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "ZION SCHOOL - SEDE PRINCIPAL",
+        "null": "23",
+        "top": [
+          {
+            "item": "INST EDUC CEFA",
+            "count": "12926"
+          },
+          {
+            "item": "INSTITUTO TECNICO INDUSTRIAL",
+            "count": "11832"
+          },
+          {
+            "item": "INST EDUC INEM JOSE FELIX DE RESTREPO",
+            "count": "9848"
+          },
+          {
+            "item": "SEDE PRINCIPAL",
+            "count": "9260"
+          },
+          {
+            "item": "JORGE ELIECER GAITAN",
+            "count": "9236"
+          },
+          {
+            "item": "CENT JOHANN KEPLER",
+            "count": "8309"
+          },
+          {
+            "item": "COL DE LA UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+            "count": "7784"
+          },
+          {
+            "item": "LIC SALAZAR Y HERRERA",
+            "count": "7438"
+          },
+          {
+            "item": "SIMON BOLIVAR",
+            "count": "7345"
+          },
+          {
+            "item": "INSTITUTO REGIONAL COREDI",
+            "count": "6738"
+          },
+          {
+            "item": "ESCUELA NORMAL SUPERIOR",
+            "count": "6717"
+          },
+          {
+            "item": "SEDE A - I E TEC INEM CUSTODIO GARCÍA ROVIRA",
+            "count": "6685"
+          },
+          {
+            "item": "LICEO CAUCASIA 1A. AGRUPACION",
+            "count": "6663"
+          },
+          {
+            "item": "COL LA SALLE",
+            "count": "6655"
+          },
+          {
+            "item": "INEM FRANCISCO DE PAULA SANTANDER",
+            "count": "6526"
+          },
+          {
+            "item": "ANTONIO NARIÑO",
+            "count": "6522"
+          },
+          {
+            "item": "COL. MILITAR ALMIRANTE COLON",
+            "count": "6469"
+          },
+          {
+            "item": "CENT DE DESARROLLO INTEGRADO - CENDI",
+            "count": "6322"
+          },
+          {
+            "item": "INSTITUCION EDUCATIVA JORGE ISAACS",
+            "count": "6308"
+          },
+          {
+            "item": "COL COOP SAN ANTONIO DE PRADO (AC)",
+            "count": "6245"
+          }
+        ],
+        "smallest": "01/01 JOSE HOLGUIN GARCES - SEDE PRINCIPAL",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496631,
+      "name": "COLE_SEDE_PRINCIPAL",
+      "dataTypeName": "text",
+      "description": "¿Es la sede Principal?",
+      "fieldName": "cole_sede_principal",
+      "position": 20,
+      "renderTypeName": "text",
+      "tableColumnId": 142487218,
+      "cachedContents": {
+        "non_null": "7109681",
+        "largest": "S",
+        "null": "23",
+        "top": [
+          {
+            "item": "S",
+            "count": "6896352"
+          },
+          {
+            "item": "N",
+            "count": "213329"
+          }
+        ],
+        "smallest": "N",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496672,
+      "name": "ESTU_COD_DEPTO_PRESENTACION",
+      "dataTypeName": "text",
+      "description": "Código del Departamento de Presentación del examen.",
+      "fieldName": "estu_cod_depto_presentacion",
+      "position": 21,
+      "renderTypeName": "text",
+      "tableColumnId": 142487259,
+      "cachedContents": {
+        "non_null": "7109618",
+        "largest": "99",
+        "null": "86",
+        "top": [
+          {
+            "item": "11",
+            "count": "1148833"
+          },
+          {
+            "item": "05",
+            "count": "1009667"
+          },
+          {
+            "item": "76",
+            "count": "644357"
+          },
+          {
+            "item": "25",
+            "count": "446739"
+          },
+          {
+            "item": "08",
+            "count": "400299"
+          },
+          {
+            "item": "68",
+            "count": "345163"
+          },
+          {
+            "item": "13",
+            "count": "298317"
+          },
+          {
+            "item": "23",
+            "count": "239330"
+          },
+          {
+            "item": "52",
+            "count": "222207"
+          },
+          {
+            "item": "15",
+            "count": "220942"
+          },
+          {
+            "item": "73",
+            "count": "203448"
+          },
+          {
+            "item": "54",
+            "count": "195858"
+          },
+          {
+            "item": "47",
+            "count": "186830"
+          },
+          {
+            "item": "41",
+            "count": "177750"
+          },
+          {
+            "item": "19",
+            "count": "171161"
+          },
+          {
+            "item": "20",
+            "count": "153976"
+          },
+          {
+            "item": "50",
+            "count": "145997"
+          },
+          {
+            "item": "17",
+            "count": "143840"
+          },
+          {
+            "item": "70",
+            "count": "132077"
+          },
+          {
+            "item": "66",
+            "count": "130352"
+          }
+        ],
+        "smallest": "05",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496641,
+      "name": "ESTU_COD_MCPIO_PRESENTACION",
+      "dataTypeName": "text",
+      "description": "Código del Municipio de Presentación del examen.",
+      "fieldName": "estu_cod_mcpio_presentacion",
+      "position": 22,
+      "renderTypeName": "text",
+      "tableColumnId": 142487228,
+      "cachedContents": {
+        "non_null": "7109618",
+        "largest": "99773",
+        "null": "86",
+        "top": [
+          {
+            "item": "11001",
+            "count": "1148833"
+          },
+          {
+            "item": "05001",
+            "count": "444024"
+          },
+          {
+            "item": "76001",
+            "count": "355475"
+          },
+          {
+            "item": "08001",
+            "count": "248863"
+          },
+          {
+            "item": "13001",
+            "count": "178899"
+          },
+          {
+            "item": "54001",
+            "count": "116708"
+          },
+          {
+            "item": "68001",
+            "count": "104387"
+          },
+          {
+            "item": "73001",
+            "count": "100928"
+          },
+          {
+            "item": "52001",
+            "count": "95253"
+          },
+          {
+            "item": "25754",
+            "count": "88572"
+          },
+          {
+            "item": "50001",
+            "count": "83757"
+          },
+          {
+            "item": "47001",
+            "count": "82501"
+          },
+          {
+            "item": "23001",
+            "count": "77465"
+          },
+          {
+            "item": "41001",
+            "count": "77271"
+          },
+          {
+            "item": "05088",
+            "count": "73259"
+          },
+          {
+            "item": "66001",
+            "count": "73054"
+          },
+          {
+            "item": "20001",
+            "count": "71804"
+          },
+          {
+            "item": "17001",
+            "count": "70859"
+          },
+          {
+            "item": "19001",
+            "count": "65885"
+          },
+          {
+            "item": "08758",
+            "count": "64148"
+          }
+        ],
+        "smallest": "05001",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496586,
+      "name": "ESTU_COD_RESIDE_DEPTO",
+      "dataTypeName": "text",
+      "description": "Código del Departamento de residencia del examinando",
+      "fieldName": "estu_cod_reside_depto",
+      "position": 23,
+      "renderTypeName": "text",
+      "tableColumnId": 142487173,
+      "cachedContents": {
+        "non_null": "7070110",
+        "largest": "99999",
+        "null": "39594",
+        "top": [
+          {
+            "item": "11",
+            "count": "1134943"
+          },
+          {
+            "item": "05",
+            "count": "1005522"
+          },
+          {
+            "item": "76",
+            "count": "638594"
+          },
+          {
+            "item": "25",
+            "count": "455325"
+          },
+          {
+            "item": "08",
+            "count": "389448"
+          },
+          {
+            "item": "68",
+            "count": "341165"
+          },
+          {
+            "item": "13",
+            "count": "306889"
+          },
+          {
+            "item": "23",
+            "count": "239712"
+          },
+          {
+            "item": "52",
+            "count": "219815"
+          },
+          {
+            "item": "15",
+            "count": "214336"
+          },
+          {
+            "item": "73",
+            "count": "208438"
+          },
+          {
+            "item": "54",
+            "count": "193550"
+          },
+          {
+            "item": "47",
+            "count": "188693"
+          },
+          {
+            "item": "41",
+            "count": "175558"
+          },
+          {
+            "item": "19",
+            "count": "173796"
+          },
+          {
+            "item": "20",
+            "count": "151828"
+          },
+          {
+            "item": "50",
+            "count": "145222"
+          },
+          {
+            "item": "17",
+            "count": "137988"
+          },
+          {
+            "item": "70",
+            "count": "132041"
+          },
+          {
+            "item": "66",
+            "count": "130784"
+          }
+        ],
+        "smallest": "05",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496646,
+      "name": "ESTU_COD_RESIDE_MCPIO",
+      "dataTypeName": "text",
+      "description": "Código del municipio de residencia del examinando",
+      "fieldName": "estu_cod_reside_mcpio",
+      "position": 24,
+      "renderTypeName": "text",
+      "tableColumnId": 142487233,
+      "cachedContents": {
+        "non_null": "7070110",
+        "largest": "99999",
+        "null": "39594",
+        "top": [
+          {
+            "item": "11001",
+            "count": "1134943"
+          },
+          {
+            "item": "05001",
+            "count": "444584"
+          },
+          {
+            "item": "76001",
+            "count": "342002"
+          },
+          {
+            "item": "08001",
+            "count": "221226"
+          },
+          {
+            "item": "13001",
+            "count": "164505"
+          },
+          {
+            "item": "54001",
+            "count": "106764"
+          },
+          {
+            "item": "73001",
+            "count": "90710"
+          },
+          {
+            "item": "25754",
+            "count": "89702"
+          },
+          {
+            "item": "68001",
+            "count": "88122"
+          },
+          {
+            "item": "47001",
+            "count": "78466"
+          },
+          {
+            "item": "50001",
+            "count": "77928"
+          },
+          {
+            "item": "52001",
+            "count": "76619"
+          },
+          {
+            "item": "08758",
+            "count": "76344"
+          },
+          {
+            "item": "05088",
+            "count": "72259"
+          },
+          {
+            "item": "66001",
+            "count": "69317"
+          },
+          {
+            "item": "23001",
+            "count": "66678"
+          },
+          {
+            "item": "20001",
+            "count": "66450"
+          },
+          {
+            "item": "41001",
+            "count": "61975"
+          },
+          {
+            "item": "17001",
+            "count": "59647"
+          },
+          {
+            "item": "19001",
+            "count": "50529"
+          }
+        ],
+        "smallest": "05001",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496655,
+      "name": "ESTU_DEPTO_PRESENTACION",
+      "dataTypeName": "text",
+      "description": "Departamento de Presentación del examen.",
+      "fieldName": "estu_depto_presentacion",
+      "position": 25,
+      "renderTypeName": "text",
+      "tableColumnId": 142487242,
+      "cachedContents": {
+        "non_null": "7109618",
+        "largest": "VICHADA",
+        "null": "86",
+        "top": [
+          {
+            "item": "BOGOTÁ",
+            "count": "1148833"
+          },
+          {
+            "item": "ANTIOQUIA",
+            "count": "1009667"
+          },
+          {
+            "item": "VALLE",
+            "count": "644357"
+          },
+          {
+            "item": "CUNDINAMARCA",
+            "count": "446739"
+          },
+          {
+            "item": "ATLANTICO",
+            "count": "400299"
+          },
+          {
+            "item": "SANTANDER",
+            "count": "345163"
+          },
+          {
+            "item": "BOLIVAR",
+            "count": "298317"
+          },
+          {
+            "item": "CORDOBA",
+            "count": "239330"
+          },
+          {
+            "item": "NARIÑO",
+            "count": "222207"
+          },
+          {
+            "item": "BOYACA",
+            "count": "220942"
+          },
+          {
+            "item": "TOLIMA",
+            "count": "203448"
+          },
+          {
+            "item": "NORTE SANTANDER",
+            "count": "195858"
+          },
+          {
+            "item": "MAGDALENA",
+            "count": "186830"
+          },
+          {
+            "item": "HUILA",
+            "count": "177750"
+          },
+          {
+            "item": "CAUCA",
+            "count": "171161"
+          },
+          {
+            "item": "CESAR",
+            "count": "153976"
+          },
+          {
+            "item": "META",
+            "count": "145997"
+          },
+          {
+            "item": "CALDAS",
+            "count": "143840"
+          },
+          {
+            "item": "SUCRE",
+            "count": "132077"
+          },
+          {
+            "item": "RISARALDA",
+            "count": "130352"
+          }
+        ],
+        "smallest": "AMAZONAS",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496633,
+      "name": "ESTU_DEPTO_RESIDE",
+      "dataTypeName": "text",
+      "description": "Departamento de residencia del examinando",
+      "fieldName": "estu_depto_reside",
+      "position": 26,
+      "renderTypeName": "text",
+      "tableColumnId": 142487220,
+      "cachedContents": {
+        "non_null": "7070110",
+        "largest": "VICHADA",
+        "null": "39594",
+        "top": [
+          {
+            "item": "BOGOTÁ",
+            "count": "1134943"
+          },
+          {
+            "item": "ANTIOQUIA",
+            "count": "1005522"
+          },
+          {
+            "item": "VALLE",
+            "count": "638594"
+          },
+          {
+            "item": "CUNDINAMARCA",
+            "count": "455325"
+          },
+          {
+            "item": "ATLANTICO",
+            "count": "389448"
+          },
+          {
+            "item": "SANTANDER",
+            "count": "341165"
+          },
+          {
+            "item": "BOLIVAR",
+            "count": "306889"
+          },
+          {
+            "item": "CORDOBA",
+            "count": "239712"
+          },
+          {
+            "item": "NARIÑO",
+            "count": "219815"
+          },
+          {
+            "item": "BOYACA",
+            "count": "214336"
+          },
+          {
+            "item": "TOLIMA",
+            "count": "208438"
+          },
+          {
+            "item": "NORTE SANTANDER",
+            "count": "193550"
+          },
+          {
+            "item": "MAGDALENA",
+            "count": "188693"
+          },
+          {
+            "item": "HUILA",
+            "count": "175558"
+          },
+          {
+            "item": "CAUCA",
+            "count": "173796"
+          },
+          {
+            "item": "CESAR",
+            "count": "151828"
+          },
+          {
+            "item": "META",
+            "count": "145222"
+          },
+          {
+            "item": "CALDAS",
+            "count": "137988"
+          },
+          {
+            "item": "SUCRE",
+            "count": "132041"
+          },
+          {
+            "item": "RISARALDA",
+            "count": "130784"
+          }
+        ],
+        "smallest": "AMAZONAS",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496632,
+      "name": "ESTU_ESTADOINVESTIGACION",
+      "dataTypeName": "text",
+      "description": "¿Permite usar sus datos para Investigaciones?",
+      "fieldName": "estu_estadoinvestigacion",
+      "position": 27,
+      "renderTypeName": "text",
+      "tableColumnId": 142487219,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "VALIDEZ OFICINA JURÍDICA",
+        "null": "0",
+        "top": [
+          {
+            "item": "PUBLICAR",
+            "count": "7105190"
+          },
+          {
+            "item": "VALIDEZ OFICINA JURÍDICA",
+            "count": "2852"
+          },
+          {
+            "item": "PRESENTE CON LECTURA TARDIA",
+            "count": "1006"
+          },
+          {
+            "item": "NO SE COMPROBO IDENTIDAD DEL EXAMINADO",
+            "count": "656"
+          }
+        ],
+        "smallest": "NO SE COMPROBO IDENTIDAD DEL EXAMINADO",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496671,
+      "name": "ESTU_ESTUDIANTE",
+      "dataTypeName": "text",
+      "description": "S si es estudiante o N si es individual",
+      "fieldName": "estu_estudiante",
+      "position": 28,
+      "renderTypeName": "text",
+      "tableColumnId": 142487258,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "ESTUDIANTE",
+        "null": "0",
+        "top": [
+          {
+            "item": "ESTUDIANTE",
+            "count": "7109704"
+          }
+        ],
+        "smallest": "ESTUDIANTE",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496662,
+      "name": "ESTU_FECHANACIMIENTO",
+      "dataTypeName": "text",
+      "description": "Fecha de nacimiento del examinando",
+      "fieldName": "estu_fechanacimiento",
+      "position": 29,
+      "renderTypeName": "text",
+      "tableColumnId": 142487249,
+      "cachedContents": {
+        "non_null": "7109539",
+        "largest": "31/12/2013",
+        "null": "165",
+        "top": [
+          {
+            "item": "10/10/1994",
+            "count": "2335"
+          },
+          {
+            "item": "12/12/1994",
+            "count": "2213"
+          },
+          {
+            "item": "12/12/1995",
+            "count": "2151"
+          },
+          {
+            "item": "05/05/1995",
+            "count": "2133"
+          },
+          {
+            "item": "11/11/1994",
+            "count": "2133"
+          },
+          {
+            "item": "09/09/1994",
+            "count": "2101"
+          },
+          {
+            "item": "11/11/1995",
+            "count": "2059"
+          },
+          {
+            "item": "06/06/1995",
+            "count": "2040"
+          },
+          {
+            "item": "10/10/1995",
+            "count": "2036"
+          },
+          {
+            "item": "02/02/1995",
+            "count": "2033"
+          },
+          {
+            "item": "05/05/1994",
+            "count": "2028"
+          },
+          {
+            "item": "02/02/1996",
+            "count": "2027"
+          },
+          {
+            "item": "08/08/1995",
+            "count": "1990"
+          },
+          {
+            "item": "25/09/1995",
+            "count": "1988"
+          },
+          {
+            "item": "12/09/1994",
+            "count": "1977"
+          },
+          {
+            "item": "07/07/1994",
+            "count": "1966"
+          },
+          {
+            "item": "24/09/1994",
+            "count": "1961"
+          },
+          {
+            "item": "07/07/1995",
+            "count": "1941"
+          },
+          {
+            "item": "06/10/1994",
+            "count": "1941"
+          },
+          {
+            "item": "03/10/1994",
+            "count": "1939"
+          }
+        ],
+        "smallest": "01/01/0001",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496674,
+      "name": "ESTU_GENERO",
+      "dataTypeName": "text",
+      "description": "Genero del examinando",
+      "fieldName": "estu_genero",
+      "position": 30,
+      "renderTypeName": "text",
+      "tableColumnId": 142487261,
+      "cachedContents": {
+        "non_null": "7106298",
+        "largest": "M",
+        "null": "3406",
+        "top": [
+          {
+            "item": "F",
+            "count": "3880677"
+          },
+          {
+            "item": "M",
+            "count": "3225621"
+          }
+        ],
+        "smallest": "F",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496669,
+      "name": "ESTU_MCPIO_PRESENTACION",
+      "dataTypeName": "text",
+      "description": "Municipio de Presentación del examen.",
+      "fieldName": "estu_mcpio_presentacion",
+      "position": 31,
+      "renderTypeName": "text",
+      "tableColumnId": 142487256,
+      "cachedContents": {
+        "non_null": "7109618",
+        "largest": "ZONA BANANERA",
+        "null": "86",
+        "top": [
+          {
+            "item": "BOGOTÁ D.C.",
+            "count": "1148833"
+          },
+          {
+            "item": "MEDELLÍN",
+            "count": "444024"
+          },
+          {
+            "item": "CALI",
+            "count": "355475"
+          },
+          {
+            "item": "BARRANQUILLA",
+            "count": "248863"
+          },
+          {
+            "item": "CARTAGENA DE INDIAS",
+            "count": "178899"
+          },
+          {
+            "item": "CÚCUTA",
+            "count": "116708"
+          },
+          {
+            "item": "BUCARAMANGA",
+            "count": "104387"
+          },
+          {
+            "item": "IBAGUÉ",
+            "count": "100928"
+          },
+          {
+            "item": "PASTO",
+            "count": "95253"
+          },
+          {
+            "item": "SOACHA",
+            "count": "88572"
+          },
+          {
+            "item": "VILLAVICENCIO",
+            "count": "83757"
+          },
+          {
+            "item": "SANTA MARTA",
+            "count": "82501"
+          },
+          {
+            "item": "MONTERÍA",
+            "count": "77465"
+          },
+          {
+            "item": "NEIVA",
+            "count": "77271"
+          },
+          {
+            "item": "BELLO",
+            "count": "73259"
+          },
+          {
+            "item": "PEREIRA",
+            "count": "73054"
+          },
+          {
+            "item": "VALLEDUPAR",
+            "count": "71804"
+          },
+          {
+            "item": "MANIZALES",
+            "count": "70859"
+          },
+          {
+            "item": "POPAYÁN",
+            "count": "65885"
+          },
+          {
+            "item": "SOLEDAD",
+            "count": "64148"
+          }
+        ],
+        "smallest": "ABEJORRAL",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496634,
+      "name": "ESTU_MCPIO_RESIDE",
+      "dataTypeName": "text",
+      "description": "Municipio de residencia del examinando",
+      "fieldName": "estu_mcpio_reside",
+      "position": 32,
+      "renderTypeName": "text",
+      "tableColumnId": 142487221,
+      "cachedContents": {
+        "non_null": "7070110",
+        "largest": "ZONA BANANERA",
+        "null": "39594",
+        "top": [
+          {
+            "item": "BOGOTÁ D.C.",
+            "count": "1134943"
+          },
+          {
+            "item": "MEDELLÍN",
+            "count": "444584"
+          },
+          {
+            "item": "CALI",
+            "count": "342002"
+          },
+          {
+            "item": "BARRANQUILLA",
+            "count": "221226"
+          },
+          {
+            "item": "CARTAGENA DE INDIAS",
+            "count": "164505"
+          },
+          {
+            "item": "CÚCUTA",
+            "count": "106764"
+          },
+          {
+            "item": "IBAGUÉ",
+            "count": "90710"
+          },
+          {
+            "item": "SOACHA",
+            "count": "89702"
+          },
+          {
+            "item": "BUCARAMANGA",
+            "count": "88122"
+          },
+          {
+            "item": "SANTA MARTA",
+            "count": "78466"
+          },
+          {
+            "item": "VILLAVICENCIO",
+            "count": "77928"
+          },
+          {
+            "item": "PASTO",
+            "count": "76619"
+          },
+          {
+            "item": "SOLEDAD",
+            "count": "76344"
+          },
+          {
+            "item": "BELLO",
+            "count": "72259"
+          },
+          {
+            "item": "PEREIRA",
+            "count": "69317"
+          },
+          {
+            "item": "MONTERÍA",
+            "count": "66678"
+          },
+          {
+            "item": "VALLEDUPAR",
+            "count": "66450"
+          },
+          {
+            "item": "NEIVA",
+            "count": "61975"
+          },
+          {
+            "item": "MANIZALES",
+            "count": "59647"
+          },
+          {
+            "item": "POPAYÁN",
+            "count": "50529"
+          }
+        ],
+        "smallest": "ABEJORRAL",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496643,
+      "name": "ESTU_NACIONALIDAD",
+      "dataTypeName": "text",
+      "description": "Nacionalidad del examinando",
+      "fieldName": "estu_nacionalidad",
+      "position": 33,
+      "renderTypeName": "text",
+      "tableColumnId": 142487230,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "ZIMBABUE",
+        "null": "0",
+        "top": [
+          {
+            "item": "COLOMBIA",
+            "count": "7090937"
+          },
+          {
+            "item": "VENEZUELA",
+            "count": "16237"
+          },
+          {
+            "item": "ESTADOS UNIDOS",
+            "count": "537"
+          },
+          {
+            "item": "ECUADOR",
+            "count": "328"
+          },
+          {
+            "item": "ESPAÑA",
+            "count": "312"
+          },
+          {
+            "item": "ARGENTINA",
+            "count": "103"
+          },
+          {
+            "item": "MÉXICO",
+            "count": "99"
+          },
+          {
+            "item": "BRASIL",
+            "count": "97"
+          },
+          {
+            "item": "PERÚ",
+            "count": "88"
+          },
+          {
+            "item": "CHILE",
+            "count": "75"
+          },
+          {
+            "item": "ITALIA",
+            "count": "58"
+          },
+          {
+            "item": "FRANCIA",
+            "count": "51"
+          },
+          {
+            "item": "COMORAS",
+            "count": "51"
+          },
+          {
+            "item": "CUBA",
+            "count": "46"
+          },
+          {
+            "item": "PANAMÁ",
+            "count": "45"
+          },
+          {
+            "item": "ALEMANIA",
+            "count": "45"
+          },
+          {
+            "item": "COSTA RICA",
+            "count": "40"
+          },
+          {
+            "item": "CHINA",
+            "count": "37"
+          },
+          {
+            "item": "VANUATU",
+            "count": "36"
+          },
+          {
+            "item": "COREA DEL SUR",
+            "count": "36"
+          }
+        ],
+        "smallest": "AFGANISTÁN",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496665,
+      "name": "ESTU_PAIS_RESIDE",
+      "dataTypeName": "text",
+      "description": "País de residencia del examinando",
+      "fieldName": "estu_pais_reside",
+      "position": 34,
+      "renderTypeName": "text",
+      "tableColumnId": 142487252,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "ZIMBABUE",
+        "null": "0",
+        "top": [
+          {
+            "item": "COLOMBIA",
+            "count": "7090937"
+          },
+          {
+            "item": "VENEZUELA",
+            "count": "16237"
+          },
+          {
+            "item": "ESTADOS UNIDOS",
+            "count": "537"
+          },
+          {
+            "item": "ECUADOR",
+            "count": "328"
+          },
+          {
+            "item": "ESPAÑA",
+            "count": "312"
+          },
+          {
+            "item": "ARGENTINA",
+            "count": "103"
+          },
+          {
+            "item": "MÉXICO",
+            "count": "99"
+          },
+          {
+            "item": "BRASIL",
+            "count": "97"
+          },
+          {
+            "item": "PERÚ",
+            "count": "88"
+          },
+          {
+            "item": "CHILE",
+            "count": "75"
+          },
+          {
+            "item": "ITALIA",
+            "count": "58"
+          },
+          {
+            "item": "FRANCIA",
+            "count": "51"
+          },
+          {
+            "item": "COMORAS",
+            "count": "51"
+          },
+          {
+            "item": "CUBA",
+            "count": "46"
+          },
+          {
+            "item": "PANAMÁ",
+            "count": "45"
+          },
+          {
+            "item": "ALEMANIA",
+            "count": "45"
+          },
+          {
+            "item": "COSTA RICA",
+            "count": "40"
+          },
+          {
+            "item": "CHINA",
+            "count": "37"
+          },
+          {
+            "item": "VANUATU",
+            "count": "36"
+          },
+          {
+            "item": "COREA DEL SUR",
+            "count": "36"
+          }
+        ],
+        "smallest": "AFGANISTÁN",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496650,
+      "name": "ESTU_PRIVADO_LIBERTAD",
+      "dataTypeName": "text",
+      "description": "¿Es privado de la libertad?",
+      "fieldName": "estu_privado_libertad",
+      "position": 35,
+      "renderTypeName": "text",
+      "tableColumnId": 142487237,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "S",
+        "null": "0",
+        "top": [
+          {
+            "item": "N",
+            "count": "7108353"
+          },
+          {
+            "item": "S",
+            "count": "1351"
+          }
+        ],
+        "smallest": "N",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496660,
+      "name": "FAMI_CUARTOSHOGAR",
+      "dataTypeName": "text",
+      "description": "¿Cuántos cuartos tiene su hogar?",
+      "fieldName": "fami_cuartoshogar",
+      "position": 36,
+      "renderTypeName": "text",
+      "tableColumnId": 142487247,
+      "cachedContents": {
+        "non_null": "6980942",
+        "largest": "Uno",
+        "null": "128762",
+        "top": [
+          {
+            "item": "Tres",
+            "count": "2832380"
+          },
+          {
+            "item": "Dos",
+            "count": "2493326"
+          },
+          {
+            "item": "Cuatro",
+            "count": "929496"
+          },
+          {
+            "item": "Uno",
+            "count": "324927"
+          },
+          {
+            "item": "Cinco",
+            "count": "259602"
+          },
+          {
+            "item": "Seis o mas",
+            "count": "54870"
+          },
+          {
+            "item": "Seis",
+            "count": "50818"
+          },
+          {
+            "item": "Siete",
+            "count": "17875"
+          },
+          {
+            "item": "Ocho",
+            "count": "9075"
+          },
+          {
+            "item": "Diez o más",
+            "count": "5141"
+          },
+          {
+            "item": "Nueve",
+            "count": "3432"
+          }
+        ],
+        "smallest": "Cinco",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496670,
+      "name": "FAMI_EDUCACIONMADRE",
+      "dataTypeName": "text",
+      "description": "Nivel de estudios de la madre",
+      "fieldName": "fami_educacionmadre",
+      "position": 37,
+      "renderTypeName": "text",
+      "tableColumnId": 142487257,
+      "cachedContents": {
+        "non_null": "6896878",
+        "largest": "Técnica o tecnológica incompleta",
+        "null": "212826",
+        "top": [
+          {
+            "item": "Secundaria (Bachillerato) completa",
+            "count": "1804293"
+          },
+          {
+            "item": "Primaria incompleta",
+            "count": "1074261"
+          },
+          {
+            "item": "Secundaria (Bachillerato) incompleta",
+            "count": "1065520"
+          },
+          {
+            "item": "Primaria completa",
+            "count": "961930"
+          },
+          {
+            "item": "Educación profesional completa",
+            "count": "681963"
+          },
+          {
+            "item": "Técnica o tecnológica completa",
+            "count": "533053"
+          },
+          {
+            "item": "Técnica o tecnológica incompleta",
+            "count": "162236"
+          },
+          {
+            "item": "Postgrado",
+            "count": "160033"
+          },
+          {
+            "item": "Ninguno",
+            "count": "159734"
+          },
+          {
+            "item": "No sabe",
+            "count": "150264"
+          },
+          {
+            "item": "Educación profesional incompleta",
+            "count": "138006"
+          },
+          {
+            "item": "No Aplica",
+            "count": "5585"
+          }
+        ],
+        "smallest": "Educación profesional completa",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496654,
+      "name": "FAMI_EDUCACIONPADRE",
+      "dataTypeName": "text",
+      "description": "Nivel de estudios de la padre",
+      "fieldName": "fami_educacionpadre",
+      "position": 38,
+      "renderTypeName": "text",
+      "tableColumnId": 142487241,
+      "cachedContents": {
+        "non_null": "6897281",
+        "largest": "Técnica o tecnológica incompleta",
+        "null": "212423",
+        "top": [
+          {
+            "item": "Secundaria (Bachillerato) completa",
+            "count": "1580335"
+          },
+          {
+            "item": "Primaria incompleta",
+            "count": "1279967"
+          },
+          {
+            "item": "Primaria completa",
+            "count": "965494"
+          },
+          {
+            "item": "Secundaria (Bachillerato) incompleta",
+            "count": "961376"
+          },
+          {
+            "item": "Educación profesional completa",
+            "count": "622734"
+          },
+          {
+            "item": "No sabe",
+            "count": "397073"
+          },
+          {
+            "item": "Técnica o tecnológica completa",
+            "count": "383102"
+          },
+          {
+            "item": "Ninguno",
+            "count": "281871"
+          },
+          {
+            "item": "Postgrado",
+            "count": "158060"
+          },
+          {
+            "item": "Técnica o tecnológica incompleta",
+            "count": "119116"
+          },
+          {
+            "item": "Educación profesional incompleta",
+            "count": "115247"
+          },
+          {
+            "item": "No Aplica",
+            "count": "32906"
+          }
+        ],
+        "smallest": "Educación profesional completa",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496628,
+      "name": "FAMI_ESTRATOVIVIENDA",
+      "dataTypeName": "text",
+      "description": "Estrato del examinando",
+      "fieldName": "fami_estratovivienda",
+      "position": 39,
+      "renderTypeName": "text",
+      "tableColumnId": 142487215,
+      "cachedContents": {
+        "non_null": "6891485",
+        "largest": "Vive en una zona rural donde no hay estratificación socioeconómica",
+        "null": "218219",
+        "top": [
+          {
+            "item": "Estrato 1",
+            "count": "2488247"
+          },
+          {
+            "item": "Estrato 2",
+            "count": "2441528"
+          },
+          {
+            "item": "Estrato 3",
+            "count": "1348516"
+          },
+          {
+            "item": "Estrato 4",
+            "count": "323398"
+          },
+          {
+            "item": "Estrato 5",
+            "count": "125691"
+          },
+          {
+            "item": "Sin Estrato",
+            "count": "89332"
+          },
+          {
+            "item": "Estrato 6",
+            "count": "74772"
+          },
+          {
+            "item": "Vive en una zona rural donde no hay estratificación socioeconómica",
+            "count": "1"
+          }
+        ],
+        "smallest": "Estrato 1",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496637,
+      "name": "FAMI_PERSONASHOGAR",
+      "dataTypeName": "text",
+      "description": "¿Con cuantas personas vive?",
+      "fieldName": "fami_personashogar",
+      "position": 40,
+      "renderTypeName": "text",
+      "tableColumnId": 142487224,
+      "cachedContents": {
+        "non_null": "6981476",
+        "largest": "Una",
+        "null": "128228",
+        "top": [
+          {
+            "item": "3 a 4",
+            "count": "1360722"
+          },
+          {
+            "item": "Cuatro",
+            "count": "1269276"
+          },
+          {
+            "item": "Cinco",
+            "count": "1005261"
+          },
+          {
+            "item": "5 a 6",
+            "count": "842350"
+          },
+          {
+            "item": "Tres",
+            "count": "699087"
+          },
+          {
+            "item": "Seis",
+            "count": "515579"
+          },
+          {
+            "item": "Siete",
+            "count": "246010"
+          },
+          {
+            "item": "1 a 2",
+            "count": "226804"
+          },
+          {
+            "item": "7 a 8",
+            "count": "212664"
+          },
+          {
+            "item": "Dos",
+            "count": "205829"
+          },
+          {
+            "item": "Ocho",
+            "count": "135505"
+          },
+          {
+            "item": "9 o más",
+            "count": "83484"
+          },
+          {
+            "item": "Nueve",
+            "count": "62068"
+          },
+          {
+            "item": "Diez",
+            "count": "42582"
+          },
+          {
+            "item": "Doce o más",
+            "count": "34329"
+          },
+          {
+            "item": "Una",
+            "count": "20527"
+          },
+          {
+            "item": "Once",
+            "count": "19399"
+          }
+        ],
+        "smallest": "1 a 2",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496663,
+      "name": "FAMI_TIENEAUTOMOVIL",
+      "dataTypeName": "text",
+      "description": "¿Tiene automóvil?",
+      "fieldName": "fami_tieneautomovil",
+      "position": 41,
+      "renderTypeName": "text",
+      "tableColumnId": 142487250,
+      "cachedContents": {
+        "non_null": "6974935",
+        "largest": "Si",
+        "null": "134769",
+        "top": [
+          {
+            "item": "No",
+            "count": "5406335"
+          },
+          {
+            "item": "Si",
+            "count": "1568600"
+          }
+        ],
+        "smallest": "No",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496675,
+      "name": "FAMI_TIENECOMPUTADOR",
+      "dataTypeName": "text",
+      "description": "¿Tiene computador?",
+      "fieldName": "fami_tienecomputador",
+      "position": 42,
+      "renderTypeName": "text",
+      "tableColumnId": 142487262,
+      "cachedContents": {
+        "non_null": "6958487",
+        "largest": "Si",
+        "null": "151217",
+        "top": [
+          {
+            "item": "Si",
+            "count": "3950991"
+          },
+          {
+            "item": "No",
+            "count": "3007496"
+          }
+        ],
+        "smallest": "No",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496635,
+      "name": "FAMI_TIENEINTERNET",
+      "dataTypeName": "text",
+      "description": "¿Tiene internet?",
+      "fieldName": "fami_tieneinternet",
+      "position": 43,
+      "renderTypeName": "text",
+      "tableColumnId": 142487222,
+      "cachedContents": {
+        "non_null": "6918080",
+        "largest": "Si",
+        "null": "191624",
+        "top": [
+          {
+            "item": "Si",
+            "count": "3733676"
+          },
+          {
+            "item": "No",
+            "count": "3184404"
+          }
+        ],
+        "smallest": "No",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496677,
+      "name": "FAMI_TIENELAVADORA",
+      "dataTypeName": "text",
+      "description": "¿Tiene lavadora?",
+      "fieldName": "fami_tienelavadora",
+      "position": 44,
+      "renderTypeName": "text",
+      "tableColumnId": 142487264,
+      "cachedContents": {
+        "non_null": "6981618",
+        "largest": "Si",
+        "null": "128086",
+        "top": [
+          {
+            "item": "Si",
+            "count": "4827213"
+          },
+          {
+            "item": "No",
+            "count": "2154405"
+          }
+        ],
+        "smallest": "No",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496658,
+      "name": "DESEMP_INGLES",
+      "dataTypeName": "text",
+      "description": "Desempeño Inglés",
+      "fieldName": "desemp_ingles",
+      "position": 45,
+      "renderTypeName": "text",
+      "tableColumnId": 142487245,
+      "cachedContents": {
+        "non_null": "7104294",
+        "largest": "B1",
+        "null": "5410",
+        "top": [
+          {
+            "item": "A-",
+            "count": "3547656"
+          },
+          {
+            "item": "A1",
+            "count": "2177131"
+          },
+          {
+            "item": "A2",
+            "count": "783055"
+          },
+          {
+            "item": "B1",
+            "count": "436227"
+          },
+          {
+            "item": "B+",
+            "count": "160220"
+          },
+          {
+            "item": "-1",
+            "count": "5"
+          }
+        ],
+        "smallest": "-1",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496636,
+      "name": "PUNT_INGLES",
+      "dataTypeName": "text",
+      "description": "Puntaje Inglés",
+      "fieldName": "punt_ingles",
+      "position": 46,
+      "renderTypeName": "text",
+      "tableColumnId": 142487223,
+      "cachedContents": {
+        "non_null": "7105525",
+        "largest": "99",
+        "null": "4179",
+        "top": [
+          {
+            "item": "43",
+            "count": "483141"
+          },
+          {
+            "item": "45",
+            "count": "274315"
+          },
+          {
+            "item": "39",
+            "count": "267498"
+          },
+          {
+            "item": "40",
+            "count": "239378"
+          },
+          {
+            "item": "47",
+            "count": "237654"
+          },
+          {
+            "item": "41",
+            "count": "236521"
+          },
+          {
+            "item": "42",
+            "count": "222310"
+          },
+          {
+            "item": "49",
+            "count": "218190"
+          },
+          {
+            "item": "46",
+            "count": "213134"
+          },
+          {
+            "item": "50",
+            "count": "211930"
+          },
+          {
+            "item": "52",
+            "count": "199825"
+          },
+          {
+            "item": "44",
+            "count": "189580"
+          },
+          {
+            "item": "48",
+            "count": "184539"
+          },
+          {
+            "item": "53",
+            "count": "180656"
+          },
+          {
+            "item": "36",
+            "count": "172896"
+          },
+          {
+            "item": "38",
+            "count": "158077"
+          },
+          {
+            "item": "37",
+            "count": "146772"
+          },
+          {
+            "item": "54",
+            "count": "144283"
+          },
+          {
+            "item": "55",
+            "count": "142095"
+          },
+          {
+            "item": "51",
+            "count": "141706"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496645,
+      "name": "PUNT_MATEMATICAS",
+      "dataTypeName": "text",
+      "description": "Puntaje Matemáticas",
+      "fieldName": "punt_matematicas",
+      "position": 47,
+      "renderTypeName": "text",
+      "tableColumnId": 142487232,
+      "cachedContents": {
+        "non_null": "7109704",
+        "largest": "99.48",
+        "null": "0",
+        "top": [
+          {
+            "item": "49",
+            "count": "294841"
+          },
+          {
+            "item": "52",
+            "count": "277825"
+          },
+          {
+            "item": "46",
+            "count": "240647"
+          },
+          {
+            "item": "45",
+            "count": "231572"
+          },
+          {
+            "item": "55",
+            "count": "229501"
+          },
+          {
+            "item": "42",
+            "count": "217950"
+          },
+          {
+            "item": "43",
+            "count": "207363"
+          },
+          {
+            "item": "50",
+            "count": "201585"
+          },
+          {
+            "item": "47",
+            "count": "189182"
+          },
+          {
+            "item": "39",
+            "count": "188370"
+          },
+          {
+            "item": "38",
+            "count": "174859"
+          },
+          {
+            "item": "44",
+            "count": "173814"
+          },
+          {
+            "item": "53",
+            "count": "164884"
+          },
+          {
+            "item": "40",
+            "count": "164088"
+          },
+          {
+            "item": "41",
+            "count": "159170"
+          },
+          {
+            "item": "58",
+            "count": "158466"
+          },
+          {
+            "item": "56",
+            "count": "152673"
+          },
+          {
+            "item": "54",
+            "count": "150200"
+          },
+          {
+            "item": "48",
+            "count": "144964"
+          },
+          {
+            "item": "35",
+            "count": "144193"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496629,
+      "name": "PUNT_SOCIALES_CIUDADANAS",
+      "dataTypeName": "text",
+      "description": "Puntaje Sociales y Ciudadanas",
+      "fieldName": "punt_sociales_ciudadanas",
+      "position": 48,
+      "renderTypeName": "text",
+      "tableColumnId": 142487216,
+      "cachedContents": {
+        "non_null": "4500181",
+        "largest": "99",
+        "null": "2609523",
+        "top": [
+          {
+            "item": "50",
+            "count": "153969"
+          },
+          {
+            "item": "47",
+            "count": "149780"
+          },
+          {
+            "item": "53",
+            "count": "148979"
+          },
+          {
+            "item": "49",
+            "count": "145894"
+          },
+          {
+            "item": "44",
+            "count": "145312"
+          },
+          {
+            "item": "46",
+            "count": "138164"
+          },
+          {
+            "item": "56",
+            "count": "137060"
+          },
+          {
+            "item": "52",
+            "count": "129769"
+          },
+          {
+            "item": "43",
+            "count": "127640"
+          },
+          {
+            "item": "41",
+            "count": "126269"
+          },
+          {
+            "item": "54",
+            "count": "124944"
+          },
+          {
+            "item": "42",
+            "count": "122184"
+          },
+          {
+            "item": "39",
+            "count": "121630"
+          },
+          {
+            "item": "38",
+            "count": "120916"
+          },
+          {
+            "item": "59",
+            "count": "119517"
+          },
+          {
+            "item": "45",
+            "count": "118674"
+          },
+          {
+            "item": "51",
+            "count": "118071"
+          },
+          {
+            "item": "40",
+            "count": "118053"
+          },
+          {
+            "item": "57",
+            "count": "113922"
+          },
+          {
+            "item": "48",
+            "count": "111581"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496640,
+      "name": "PUNT_C_NATURALES",
+      "dataTypeName": "text",
+      "description": "Puntaje Ciencias Naturales",
+      "fieldName": "punt_c_naturales",
+      "position": 49,
+      "renderTypeName": "text",
+      "tableColumnId": 142487227,
+      "cachedContents": {
+        "non_null": "4500181",
+        "largest": "98",
+        "null": "2609523",
+        "top": [
+          {
+            "item": "47",
+            "count": "162133"
+          },
+          {
+            "item": "48",
+            "count": "161590"
+          },
+          {
+            "item": "49",
+            "count": "161552"
+          },
+          {
+            "item": "50",
+            "count": "157687"
+          },
+          {
+            "item": "52",
+            "count": "157467"
+          },
+          {
+            "item": "46",
+            "count": "156258"
+          },
+          {
+            "item": "51",
+            "count": "155906"
+          },
+          {
+            "item": "45",
+            "count": "153529"
+          },
+          {
+            "item": "53",
+            "count": "152318"
+          },
+          {
+            "item": "44",
+            "count": "148718"
+          },
+          {
+            "item": "54",
+            "count": "147002"
+          },
+          {
+            "item": "43",
+            "count": "146937"
+          },
+          {
+            "item": "42",
+            "count": "140447"
+          },
+          {
+            "item": "55",
+            "count": "135653"
+          },
+          {
+            "item": "41",
+            "count": "135239"
+          },
+          {
+            "item": "56",
+            "count": "133372"
+          },
+          {
+            "item": "57",
+            "count": "126249"
+          },
+          {
+            "item": "40",
+            "count": "125530"
+          },
+          {
+            "item": "58",
+            "count": "118901"
+          },
+          {
+            "item": "38",
+            "count": "113749"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496676,
+      "name": "PUNT_LECTURA_CRITICA",
+      "dataTypeName": "text",
+      "description": "Puntaje Lectura crítica",
+      "fieldName": "punt_lectura_critica",
+      "position": 50,
+      "renderTypeName": "text",
+      "tableColumnId": 142487263,
+      "cachedContents": {
+        "non_null": "4500181",
+        "largest": "99",
+        "null": "2609523",
+        "top": [
+          {
+            "item": "54",
+            "count": "176335"
+          },
+          {
+            "item": "51",
+            "count": "170326"
+          },
+          {
+            "item": "50",
+            "count": "169286"
+          },
+          {
+            "item": "47",
+            "count": "165758"
+          },
+          {
+            "item": "57",
+            "count": "157622"
+          },
+          {
+            "item": "52",
+            "count": "157441"
+          },
+          {
+            "item": "55",
+            "count": "155136"
+          },
+          {
+            "item": "53",
+            "count": "149681"
+          },
+          {
+            "item": "48",
+            "count": "146446"
+          },
+          {
+            "item": "58",
+            "count": "146141"
+          },
+          {
+            "item": "49",
+            "count": "145898"
+          },
+          {
+            "item": "56",
+            "count": "142357"
+          },
+          {
+            "item": "44",
+            "count": "140534"
+          },
+          {
+            "item": "60",
+            "count": "140497"
+          },
+          {
+            "item": "43",
+            "count": "135053"
+          },
+          {
+            "item": "46",
+            "count": "133558"
+          },
+          {
+            "item": "45",
+            "count": "132196"
+          },
+          {
+            "item": "41",
+            "count": "119186"
+          },
+          {
+            "item": "59",
+            "count": "117749"
+          },
+          {
+            "item": "61",
+            "count": "115363"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    },
+    {
+      "id": 561496656,
+      "name": "PUNT_GLOBAL",
+      "dataTypeName": "text",
+      "description": "Puntaje Global",
+      "fieldName": "punt_global",
+      "position": 51,
+      "renderTypeName": "text",
+      "tableColumnId": 142487243,
+      "cachedContents": {
+        "non_null": "4500181",
+        "largest": "99",
+        "null": "2609523",
+        "top": [
+          {
+            "item": "237",
+            "count": "38486"
+          },
+          {
+            "item": "243",
+            "count": "38402"
+          },
+          {
+            "item": "230",
+            "count": "38310"
+          },
+          {
+            "item": "245",
+            "count": "38237"
+          },
+          {
+            "item": "235",
+            "count": "38194"
+          },
+          {
+            "item": "240",
+            "count": "38128"
+          },
+          {
+            "item": "232",
+            "count": "38090"
+          },
+          {
+            "item": "238",
+            "count": "38021"
+          },
+          {
+            "item": "233",
+            "count": "37974"
+          },
+          {
+            "item": "250",
+            "count": "37942"
+          },
+          {
+            "item": "242",
+            "count": "37890"
+          },
+          {
+            "item": "228",
+            "count": "37683"
+          },
+          {
+            "item": "248",
+            "count": "37618"
+          },
+          {
+            "item": "247",
+            "count": "37473"
+          },
+          {
+            "item": "253",
+            "count": "37304"
+          },
+          {
+            "item": "227",
+            "count": "37220"
+          },
+          {
+            "item": "225",
+            "count": "37043"
+          },
+          {
+            "item": "252",
+            "count": "36806"
+          },
+          {
+            "item": "255",
+            "count": "36543"
+          },
+          {
+            "item": "223",
+            "count": "36472"
+          }
+        ],
+        "smallest": "0",
+        "count": "7109704",
+        "cardinality": "7109704"
+      },
+      "format": {}
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Creative Commons Attribution | Share Alike 4.0 International",
+    "logoUrl": "images/licenses/cc30bysa.png",
+    "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "metadata": {
+    "custom_fields": {
+      "Información de la Entidad": {
+        "Municipio": "Bogotá D.C.",
+        "Nombre de la Entidad": "Instituto Colombiano para la Evaluación de la Educación - ICFES, Bogotá D.C.",
+        "DIVIPOLA Municipio": "11001",
+        "Orden": "Nacional",
+        "Sector": "Educación",
+        "Departamento": "Bogotá D.C."
+      },
+      "Información de Datos": {
+        "Cobertura Geográfica": "Nacional",
+        "Idioma": "Español",
+        "Frecuencia de Actualización": "Semestral"
+      }
+    }
+  },
+  "owner": {
+    "id": "bpbw-gs2u",
+    "displayName": "ICFES DATOS ABIERTOS",
+    "profileImageUrlLarge": "/api/users/bpbw-gs2u/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/bpbw-gs2u/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/bpbw-gs2u/profile_images/TINY",
+    "screenName": "ICFES DATOS ABIERTOS",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "bpbw-gs2u",
+    "displayName": "ICFES DATOS ABIERTOS",
+    "profileImageUrlLarge": "/api/users/bpbw-gs2u/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/bpbw-gs2u/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/bpbw-gs2u/profile_images/TINY",
+    "screenName": "ICFES DATOS ABIERTOS",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "tags": [
+    "saber 11",
+    "resultados"
+  ],
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}
